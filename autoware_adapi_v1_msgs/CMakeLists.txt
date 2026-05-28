@@ -7,6 +7,7 @@ ament_auto_find_build_dependencies()
 rosidl_generate_interfaces(${PROJECT_NAME}
   common/msg/ResponseStatus.msg
   common/msg/KvString.msg
+  common/srv/MuxSelectInput.srv
   localization/msg/LocalizationInitializationState.msg
   localization/srv/InitializeLocalization.srv
   manual/msg/PedalsCommand.msg
@@ -21,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   manual/msg/ManualOperatorHeartbeat.msg
   manual/srv/ListManualControlMode.srv
   manual/srv/SelectManualControlMode.srv
+  remote/msg/TeleoperationState.msg
   routing/msg/RouteState.msg
   routing/msg/Route.msg
   routing/msg/RouteData.msg

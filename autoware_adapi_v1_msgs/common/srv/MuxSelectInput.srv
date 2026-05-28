@@ -1,0 +1,9 @@
+# Service to select the active input source for a multiplexer (mux) node.
+# Used to switch which upstream input the mux forwards to downstream nodes.
+
+# Name of the input to activate. (required)
+# e.g. "AUTO"
+string select_input
+---
+# True if the input was successfully selected, false otherwise. (required)
+bool success

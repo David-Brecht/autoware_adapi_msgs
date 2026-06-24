@@ -23,6 +23,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   manual/srv/ListManualControlMode.srv
   manual/srv/SelectManualControlMode.srv
   remote/msg/TeleoperationState.msg
+  remote/srv/ModObjectList.srv
+  remote/srv/ModTrafficSignals.srv
   routing/msg/RouteState.msg
   routing/msg/Route.msg
   routing/msg/RouteData.msg

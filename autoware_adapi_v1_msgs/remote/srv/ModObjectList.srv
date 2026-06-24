@@ -1,0 +1,12 @@
+# Modification Type
+uint8 MOD_STOP_MOD = 0
+uint8 MOD_REMOVE = 1
+uint8 MOD_SET_STATIC = 2
+uint8 MOD_SET_UNKNOWN = 3
+
+uint8 modification
+
+# Objects which should be modified
+unique_identifier_msgs/UUID[] object_ids
+---
+bool success

@@ -1,0 +1,8 @@
+# Modification Type
+uint8 MOD_NO_MOD = 0
+uint8 MOD_SET_GREEN = 1
+uint8 MOD_SET_RED = 2
+
+uint8 modification
+---
+bool success
